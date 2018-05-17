@@ -6,30 +6,17 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var rotate = function (nums, k) {
-    if(nums.length===0){
+    if(!nums.length){
         return []
     }
     if(k===0){
         return nums
     }
-    var flag = 1;
-    var renderFun = function(arr){
-        var originArr = arr.slice();
-        var resArr = [];
-        for(let i in originArr){
-            if(i==0){
-                resArr.push(originArr[originArr.length]);
-            }
-        }
-        console.log(resArr);
-        // if (flag===k){
-        //     return arr
-        // }
-        // flag++;
-        // return renderFun(resArr)
+    for (var i = 0; i < k; i++) {
+        nums = [].concat(nums.splice(nums.length - 1), nums.slice(0, nums.length));
     }
-    renderFun(nums)
+    return nums
 };
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
-console.log(rotate(arr));
+console.log(rotate(arr,3));
