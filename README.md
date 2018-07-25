@@ -26,7 +26,7 @@ Difficult       //困难难度
     - reverseWords
     - uniqueMorseRepresentations
     - titleToNumber
-
+    - toLowerCase
 
 - Normal
     - 暂无👍
