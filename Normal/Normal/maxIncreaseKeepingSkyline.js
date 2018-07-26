@@ -13,15 +13,21 @@ var maxIncreaseKeepingSkyline = function (grid) {
     let totalHeight = 0;//定义总共可以增加的高度
     for (var i = 0; i < grid.length; i++) {
         for (var j = 0; j < grid[i].length; j++) {
-            let currentX = 0;
-            let currentY = 0;
-            for (var z = j + 1; z < grid[i].length; z++) {
-                if(grid[i][j]){
-
-                }else{
-
+            let maxRowNum = grid[i][j];
+            let maxColNum = grid[i][j];
+            for (var k = 0; k < grid[i].length; k++) {
+                if (maxRowNum < grid[i][k]) {
+                    maxRowNum = grid[i][k];
                 }
             }
+            for (var m = 0; m < grid.length; m++) {
+                if (maxColNum < grid[m][j]) {
+                    maxColNum = grid[m][j];
+                }
+            }
+            let increaseNum = maxRowNum > maxColNum ? maxColNum : maxRowNum;
+            // console.log(increaseNum);
+            totalHeight = totalHeight + increaseNum - grid[i][j];
         }
     }
     return totalHeight
