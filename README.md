@@ -29,7 +29,8 @@ Difficult       //困难难度
     - toLowerCase
 
 - Normal
-    - 暂无👍
+    - maxIncreaseKeepingSkyline
+    - TinyURL
 
 - Difficult
     - 暂无👍
