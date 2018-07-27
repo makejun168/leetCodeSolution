@@ -28,7 +28,6 @@ var islandPerimeter = function (grid) {
                 let afterColNum = i + 1;
                 let beforeRowNum = j - 1;
                 let afterRpwNum = j + 1;
-
                 if (beforeColNum < 0) {
                     totalLen++;
                 } else {
@@ -36,7 +35,6 @@ var islandPerimeter = function (grid) {
                         totalLen++;
                     }
                 }
-
                 if (afterColNum > grid.length - 1) {
                     totalLen++;
                 } else {
@@ -44,7 +42,6 @@ var islandPerimeter = function (grid) {
                         totalLen++;
                     }
                 }
-
                 if (beforeRowNum < 0) {
                     totalLen++;
                 } else {
@@ -52,7 +49,6 @@ var islandPerimeter = function (grid) {
                         totalLen++;
                     }
                 }
-
                 if (afterRpwNum > grid[i].length - 1) {
                     totalLen++;
                 } else {
