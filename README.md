@@ -27,6 +27,7 @@ Difficult       //困难难度
     - uniqueMorseRepresentations
     - titleToNumber
     - toLowerCase
+    - movie (有趣的电影)
 
 - Normal
     - maxIncreaseKeepingSkyline
