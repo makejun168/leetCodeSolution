@@ -19,5 +19,58 @@
  * @return {number}
  */
 var islandPerimeter = function (grid) {
+    let totalLen = 0;
+    for (var i = 0; i < grid.length; i++) {
+        for (var j = 0; j < grid[i].length; j++) {
+            if (grid[i][j]) {
+                //判断下标是否越界
+                let beforeColNum = i - 1;
+                let afterColNum = i + 1;
+                let beforeRowNum = j - 1;
+                let afterRpwNum = j + 1;
 
+                if (beforeColNum < 0) {
+                    totalLen++;
+                } else {
+                    if (!grid[beforeColNum][j]) {
+                        totalLen++;
+                    }
+                }
+
+                if (afterColNum > grid.length - 1) {
+                    totalLen++;
+                } else {
+                    if (!grid[afterColNum][j]) {
+                        totalLen++;
+                    }
+                }
+
+                if (beforeRowNum < 0) {
+                    totalLen++;
+                } else {
+                    if (!grid[i][beforeRowNum]) {
+                        totalLen++;
+                    }
+                }
+
+                if (afterRpwNum > grid[i].length - 1) {
+                    totalLen++;
+                } else {
+                    if (!grid[i][afterRpwNum]) {
+                        totalLen++;
+                    }
+                }
+            }
+        }
+    }
+    // console.log(totalLen);
+    return totalLen;
 };
+
+var testArr = [
+    [0, 1, 0, 0],
+    [1, 1, 1, 0],
+    [0, 1, 0, 0],
+    [1, 1, 0, 0]
+];
+islandPerimeter(testArr);
