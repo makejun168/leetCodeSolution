@@ -28,6 +28,7 @@ var islandPerimeter = function (grid) {
                 let afterColNum = i + 1;
                 let beforeRowNum = j - 1;
                 let afterRpwNum = j + 1;
+                console.log(grid[beforeColNum][j]);
                 if (beforeColNum < 0) {
                     totalLen++;
                 } else {
