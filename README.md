@@ -1,7 +1,7 @@
 # leetCodeSolution
 通过Javascript去实现leetCode的题目
 # 进度
-16 / 699
+21 / 703
 # 目录结构
 ```
 Simple          //简单难度
@@ -27,6 +27,7 @@ Difficult       //困难难度
     - uniqueMorseRepresentations
     - titleToNumber
     - toLowerCase
+    - islandPerimeter
     - movie (有趣的电影)
 
 - Normal
