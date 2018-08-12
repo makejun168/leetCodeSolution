@@ -7,6 +7,7 @@
 Simple          //简单难度
 Normal          //中等难度
 Difficult       //困难难度
+PersonalCode    //个人代码
 ```
 # 通过的题目
 - Simple
