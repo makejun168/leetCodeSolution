@@ -30,6 +30,7 @@ PersonalCode    //个人代码
     - toLowerCase
     - islandPerimeter
     - movie (有趣的电影)
+    - findSpecialInteger (找出数组中出现次数最多的数组)
 
 - Normal
     - maxIncreaseKeepingSkyline
