@@ -19,6 +19,7 @@ PersonalCode    //个人代码
 ```
 ### 通过的题目
 - Simple
+    - reverseLeftWords (左旋转字符串 slice的使用方式)
     - distributeCandies
     - peakIndexInMountainArray
     - removeDuplicates
