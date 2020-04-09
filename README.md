@@ -47,6 +47,7 @@ PersonalCode    //个人代码
     - findNumbers [统计位数为偶数的数字][https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/]
     - smallerNumbersThanCurrent [有多少小于当前数字的数字][https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/]
     - createTargetArray [按既定顺序创建目标数组][https://leetcode-cn.com/problems/create-target-array-in-the-given-order/]
+    - decompressRLElist [解压缩编码列表][https://leetcode-cn.com/problems/decompress-run-length-encoded-list/]
 
 - Normal
     - maxIncreaseKeepingSkyline
