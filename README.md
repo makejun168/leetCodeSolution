@@ -45,6 +45,8 @@ PersonalCode    //个人代码
     - game [猜数字][https://leetcode-cn.com/problems/guess-numbers/]
     - subtractProductAndSum [证书的各位积和之差][https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/]
     - findNumbers [统计位数为偶数的数字][https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/]
+    - smallerNumbersThanCurrent [有多少小于当前数字的数字][https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/]
+    - createTargetArray [按既定顺序创建目标数组][https://leetcode-cn.com/problems/create-target-array-in-the-given-order/]
 
 - Normal
     - maxIncreaseKeepingSkyline
