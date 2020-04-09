@@ -4,9 +4,9 @@
 
 
 ### 进度
-23 / 1564
+25 / 1564
 
-已经通过的题目：23
+已经通过的题目：26
 提交未通过的题目：9
 未开始的题目：1594
 
@@ -19,7 +19,8 @@ PersonalCode    //个人代码
 ```
 ### 通过的题目
 - Simple
-    - reverseLeftWords (左旋转字符串 slice的使用方式)
+    - reverseLeftWords [左旋转字符串][https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/]
+    - numberOfSteps [将数字变成0的次数][https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/]
     - distributeCandies
     - peakIndexInMountainArray
     - removeDuplicates
@@ -37,10 +38,13 @@ PersonalCode    //个人代码
     - uniqueMorseRepresentations
     - titleToNumber
     - toLowerCase
-    - islandPerimeter
-    - movie (有趣的电影)
-    - findSpecialInteger (找出数组中出现次数最多的数组)
-    - tictactoe (找出井字棋的获胜者)
+    - islandPerimeter [岛屿的周长][https://leetcode-cn.com/problems/island-perimeter/]
+    - movie [有趣的电影][https://leetcode-cn.com/problems/not-boring-movies/]
+    - findSpecialInteger [找出数组中出现次数最多的数组][https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/]
+    - tictactoe [找出井字棋的获胜者][https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/]
+    - game [猜数字][https://leetcode-cn.com/problems/guess-numbers/]
+    - subtractProductAndSum [证书的各位积和之差][https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/]
+    - findNumbers [统计位数为偶数的数字][https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/]
 
 - Normal
     - maxIncreaseKeepingSkyline
