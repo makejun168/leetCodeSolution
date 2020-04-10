@@ -1,14 +1,14 @@
 # leetCodeSolution
-通过Javascript去实现leetCode的题目
-刷题地址：https://leetcode-cn.com/
+通过Javascript去实现leetCode的题目  
+[刷题地址][https://leetcode-cn.com/]  
 
 
 ### 进度
 25 / 1564
 
-已经通过的题目：31
-提交未通过的题目：9
-未开始的题目：1594
+> 已经通过的题目：33  
+> 提交未通过的题目：9  
+> 未开始的题目：1594  
 
 ### 目录结构
 ```
@@ -21,23 +21,23 @@ PersonalCode    //个人代码
 - Simple
     - reverseLeftWords [左旋转字符串][https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/]
     - numberOfSteps [将数字变成0的次数][https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/]
-    - distributeCandies
-    - peakIndexInMountainArray
-    - removeDuplicates
-    - strStr
-    - flipAndInvertImage
-    - reverse
-    - reverseString
-    - containsDuplicate
-    - twoSum
-    - numJewelsInStones
-    - judgeCircle
-    - findComplement
-    - canWinNim
-    - reverseWords
-    - uniqueMorseRepresentations
-    - titleToNumber
-    - toLowerCase
+    - distributeCandies [分糖果][https://leetcode-cn.com/problems/distribute-candies/]
+    - peakIndexInMountainArray [山脉数组的峰顶索引][https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/]
+    - removeDuplicates [删除数组的重复项][https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/]
+    - strStr [实现 strStr()][https://leetcode-cn.com/problems/implement-strstr/]
+    - flipAndInvertImage [翻转图像][https://leetcode-cn.com/problems/flipping-an-image/]
+    - reverse [整数反转][https://leetcode-cn.com/problems/reverse-integer/]
+    - reverseString [反转字符串][https://leetcode-cn.com/problems/reverse-string/]
+    - containsDuplicate [存在重复的元素][https://leetcode-cn.com/problems/contains-duplicate/]
+    - twoSum [两数之和][https://leetcode-cn.com/problems/two-sum/]
+    - numJewelsInStones [统计位数为偶数的数字][https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/]
+    - judgeCircle [机器人是否返回到原点][https://leetcode-cn.com/problems/robot-return-to-origin/]
+    - findComplement [数字的补数][https://leetcode-cn.com/problems/number-complement/]
+    - canWinNim [Nim game][https://leetcode-cn.com/problems/nim-game/]
+    - reverseWords [反转字符串中的单词Ⅲ][https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/]
+    - uniqueMorseRepresentations [唯一摩斯密码][https://leetcode-cn.com/problems/unique-morse-code-words/]
+    - titleToNumber [Excel表序列号][https://leetcode-cn.com/problems/excel-sheet-column-number/]
+    - toLowerCase [转换成小写字母][https://leetcode-cn.com/problems/to-lower-case/]
     - islandPerimeter [岛屿的周长][https://leetcode-cn.com/problems/island-perimeter/]
     - movie [有趣的电影][https://leetcode-cn.com/problems/not-boring-movies/]
     - findSpecialInteger [找出数组中出现次数最多的数组][https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/]
@@ -52,6 +52,8 @@ PersonalCode    //个人代码
 - Normal
     - maxIncreaseKeepingSkyline
     - TinyURL
+    - sumNums [求1+2+...n][https://leetcode-cn.com/problems/qiu-12n-lcof/]
+    - reverseWords [翻转字符串里的单词][https://leetcode-cn.com/problems/reverse-words-in-a-string/]
 
 - Difficult
     - 暂无👍
