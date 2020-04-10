@@ -50,6 +50,12 @@ PersonalCode    //个人代码
     - defangIPaddr [IP地址无效化][https://leetcode-cn.com/problems/defanging-an-ip-address/]
     - getDecimaValue [二进制链表转整数][https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/]
     - minTimeToVisitAllPoints [访问所有点的最小时间][https://leetcode-cn.com/problems/minimum-time-visiting-all-points/]
+    - deleteNode [删除当前节点][https://leetcode-cn.com/problems/delete-node-in-a-linked-list/]
+    - deleteNode [删除当前节点 同上][https://leetcode-cn.com/problems/delete-middle-node-lcci/]
+    - kthToLast [返回倒数第K个节点][https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/] 有参考价值
+    - printNumbers [打印从1到最大的n位数][https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/]
+    - replaceSpace [替换空格][https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/]
+    - [查找重复的电子邮箱][https://leetcode-cn.com/problems/duplicate-emails/]
 
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
