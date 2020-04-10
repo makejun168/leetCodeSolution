@@ -39,4 +39,5 @@ var testArr = [
     [9, 2, 6, 3],
     [0, 3, 1, 0]
 ];
+
 maxIncreaseKeepingSkyline(testArr);

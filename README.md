@@ -2,13 +2,12 @@
 通过Javascript去实现leetCode的题目  
 [刷题地址][https://leetcode-cn.com/]  
 
-
 ### 进度
-25 / 1564
+34 / 1564
 
-> 已经通过的题目：33  
+> 已经通过的题目：34  
 > 提交未通过的题目：9  
-> 未开始的题目：1594  
+> 未开始的题目：1552  
 
 ### 目录结构
 ```
@@ -48,10 +47,13 @@ PersonalCode    //个人代码
     - smallerNumbersThanCurrent [有多少小于当前数字的数字][https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/]
     - createTargetArray [按既定顺序创建目标数组][https://leetcode-cn.com/problems/create-target-array-in-the-given-order/]
     - decompressRLElist [解压缩编码列表][https://leetcode-cn.com/problems/decompress-run-length-encoded-list/]
+    - defangIPaddr [IP地址无效化][https://leetcode-cn.com/problems/defanging-an-ip-address/]
+    - getDecimaValue [二进制链表转整数][https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/]
+    - minTimeToVisitAllPoints [访问所有点的最小时间][https://leetcode-cn.com/problems/minimum-time-visiting-all-points/]
 
 - Normal
-    - maxIncreaseKeepingSkyline
-    - TinyURL
+    - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
+    - TinyURL [TinyURL 的加密与解密][https://leetcode-cn.com/problems/encode-and-decode-tinyurl/]
     - sumNums [求1+2+...n][https://leetcode-cn.com/problems/qiu-12n-lcof/]
     - reverseWords [翻转字符串里的单词][https://leetcode-cn.com/problems/reverse-words-in-a-string/]
 
