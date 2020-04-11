@@ -59,7 +59,12 @@ PersonalCode    //个人代码
     - countNegatives [统计有序矩阵中的负数][https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/]
     - balancedStringSplit [分割平衡字符串][https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/] 有参考价值 进出栈
     - distanceBetweenBusStops [公交站间的距离][https://leetcode-cn.com/problems/distance-between-bus-stops/]
-
+    - mirrorTree [二叉树镜像][https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/] 二叉树一般使用递归
+    - removeOuterParentheses [删除最外层的括号][https://leetcode-cn.com/problems/remove-outermost-parentheses/] 正则表达式不会
+    - rangeSumBST [搜索二叉树][https://leetcode-cn.com/problems/range-sum-of-bst/] 二叉树需要 再学习一下 递归的思想
+    - sortString [上升下降字符串][https://leetcode-cn.com/problems/increasing-decreasing-string/] 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 需要加深理解
+    - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 
+    
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
     - TinyURL [TinyURL 的加密与解密][https://leetcode-cn.com/problems/encode-and-decode-tinyurl/]
