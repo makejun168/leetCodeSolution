@@ -3,10 +3,10 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-34 / 1564
+51 / 1564
 
-> 已经通过的题目：42
-> 提交未通过的题目：9  
+> 已经通过的题目：51
+> 提交未通过的题目 11  
 > 未开始的题目：1552  
 
 ### 目录结构
@@ -63,7 +63,8 @@ PersonalCode    //个人代码
     - removeOuterParentheses [删除最外层的括号][https://leetcode-cn.com/problems/remove-outermost-parentheses/] 正则表达式不会
     - rangeSumBST [搜索二叉树][https://leetcode-cn.com/problems/range-sum-of-bst/] 二叉树需要 再学习一下 递归的思想
     - sortString [上升下降字符串][https://leetcode-cn.com/problems/increasing-decreasing-string/] 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 需要加深理解
-    - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 
+    - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 记住二叉树一般使用递归的方法 
+    - constructMaximumBinaryTree [最大二叉树][https://leetcode-cn.com/problems/maximum-binary-tree/]
     
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
