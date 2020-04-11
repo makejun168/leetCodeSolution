@@ -5,7 +5,7 @@
 ### 进度
 34 / 1564
 
-> 已经通过的题目：34  
+> 已经通过的题目：42
 > 提交未通过的题目：9  
 > 未开始的题目：1552  
 
@@ -55,7 +55,10 @@ PersonalCode    //个人代码
     - kthToLast [返回倒数第K个节点][https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/] 有参考价值
     - printNumbers [打印从1到最大的n位数][https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/]
     - replaceSpace [替换空格][https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/]
-    - [查找重复的电子邮箱][https://leetcode-cn.com/problems/duplicate-emails/]
+    - sql [查找重复的电子邮箱][https://leetcode-cn.com/problems/duplicate-emails/]
+    - countNegatives [统计有序矩阵中的负数][https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/]
+    - balancedStringSplit [分割平衡字符串][https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/] 有参考价值 进出栈
+    - distanceBetweenBusStops [公交站间的距离][https://leetcode-cn.com/problems/distance-between-bus-stops/]
 
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
