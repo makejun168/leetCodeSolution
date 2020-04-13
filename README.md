@@ -68,8 +68,12 @@ PersonalCode    //个人代码
     - reversePrint [反转节点][https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/] 链接同样 也是递归的解法 与二叉树解法类似
     - replaceElements [将每个元素替换为右侧最大的元素][https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/]
     - reverseList [反转链表][https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/] 最优解是双指针 原地反转
-    - twitter [][]
-
+    - twitter [设计推特][https://leetcode-cn.com/problems/design-twitter/] 数据库设计
+    - oddCells [奇数值单元格的数目][https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/]
+    - bigCountry [大的国家][https://leetcode-cn.com/problems/big-countries/submissions/]
+    - heightChecker [高度检查器][https://leetcode-cn.com/problems/height-checker/]
+    - arrayPairSum [数组拆分][https://leetcode-cn.com/problems/array-partition-i/]
+    
 
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]

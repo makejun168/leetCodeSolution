@@ -68,16 +68,12 @@ Twitter.prototype.follow = function(followerId, followeeId) {
 Twitter.prototype.unfollow = function(followerId, followeeId) {
   this.tfUser(followerId);
   let index = this.user.get(followerId).indexOf(followeeId);
-  if (index > 0) {
+  // indexOf 判断的时候不能使用 > 0 有可能 index 等于 0
+  if (index >= 0) {
     this.user.get(followerId).splice(index, 1);
   }
 };
 
-/**
- * Your Twitter object will be instantiated and called as such:
- * var obj = new Twitter()
- * obj.postTweet(userId,tweetId)
- * var param_2 = obj.getNewsFeed(userId)
- * obj.follow(followerId,followeeId)
- * obj.unfollow(followerId,followeeId)
- */
+
+// ["Twitter","postTweet","getNewsFeed","follow","getNewsFeed","unfollow","getNewsFeed"]
+// [[],[1,1],[1],[2,1],[2],[2,1],[2]]
