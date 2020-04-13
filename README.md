@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-51 / 1564
+54 / 1564
 
-> 已经通过的题目：51
+> 已经通过的题目：55
 > 提交未通过的题目 11  
 > 未开始的题目：1552  
 
@@ -63,16 +63,20 @@ PersonalCode    //个人代码
     - removeOuterParentheses [删除最外层的括号][https://leetcode-cn.com/problems/remove-outermost-parentheses/] 正则表达式不会
     - rangeSumBST [搜索二叉树][https://leetcode-cn.com/problems/range-sum-of-bst/] 二叉树需要 再学习一下 递归的思想
     - sortString [上升下降字符串][https://leetcode-cn.com/problems/increasing-decreasing-string/] 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 需要加深理解
-    - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 记住二叉树一般使用递归的方法 
+    - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 记住二叉树一般使用递归的方法
     - constructMaximumBinaryTree [最大二叉树][https://leetcode-cn.com/problems/maximum-binary-tree/] leetcode 对二叉树支持不好 bug多
-    
-    
+    - reversePrint [反转节点][https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/] 链接同样 也是递归的解法 与二叉树解法类似
+    - replaceElements [将每个元素替换为右侧最大的元素][https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/]
+    - reverseList [反转链表][https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/] 最优解是双指针 原地反转
+    - twitter [][]
+
+
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
     - TinyURL [TinyURL 的加密与解密][https://leetcode-cn.com/problems/encode-and-decode-tinyurl/]
     - sumNums [求1+2+...n][https://leetcode-cn.com/problems/qiu-12n-lcof/]
     - reverseWords [翻转字符串里的单词][https://leetcode-cn.com/problems/reverse-words-in-a-string/]
-    - canCompleteCircuit [加油站][https://leetcode-cn.com/problems/gas-station/]
+    - canCompleteCircuit [加油站][https://leetcode-cn.com/problems/gas-station/] 一次循环最优解
 - Difficult
     - 暂无👍
 
