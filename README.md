@@ -65,7 +65,7 @@ PersonalCode    //个人代码
     - sortString [上升下降字符串][https://leetcode-cn.com/problems/increasing-decreasing-string/] 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 需要加深理解
     - invertTree [翻转二叉树][https://leetcode-cn.com/problems/invert-binary-tree/] 记住二叉树一般使用递归的方法 
     - constructMaximumBinaryTree [最大二叉树][https://leetcode-cn.com/problems/maximum-binary-tree/] leetcode 对二叉树支持不好 bug多
-    - 
+    
     
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线][https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/]
