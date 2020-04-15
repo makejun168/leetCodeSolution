@@ -74,6 +74,7 @@ PersonalCode    //个人代码
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
     - Emails [查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails/)
     - bigCountry [大的国家](https://leetcode-cn.com/problems/big-countries/submissions/)
+    - wages [交换工资](https://leetcode-cn.com/problems/swap-salary/)
 
 - ListNode
     - getDecimaValue [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
