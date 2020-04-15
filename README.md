@@ -5,7 +5,7 @@
 ### 进度
 71 / 1564
 
-> 已经通过的题目：71
+> 已经通过的题目：73
 > 提交未通过的题目 11  
 > 未开始的题目：1552  
 
@@ -69,12 +69,14 @@ PersonalCode    //个人代码
      - oddCells [奇数值单元格的数目](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/)
      - heightChecker [高度检查器](https://leetcode-cn.com/problems/height-checker/) 参考价值
      - arrayPairSum [数组拆分](https://leetcode-cn.com/problems/array-partition-i/)
+     - luckyNumbers [幸运数字](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
 
 - Sql
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
     - Emails [查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails/)
     - bigCountry [大的国家](https://leetcode-cn.com/problems/big-countries/submissions/)
     - wages [交换工资](https://leetcode-cn.com/problems/swap-salary/)
+    - Merge [组合两个表格](https://leetcode-cn.com/problems/combine-two-tables/)
 
 - ListNode
     - getDecimaValue [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
@@ -113,3 +115,14 @@ PersonalCode    //个人代码
 - Difficult
     - 暂无👍
 
+#### 总结
+
+| 算法题类型 | 解法思路 | 原因 |  |  |
+| --- | --- | --- | --- | --- |
+| String | 正则表达式 转化成数组判断 效率低 | 正则匹配难度大 转化是数组判断效率低下 数据类型转换浪费性能 | |
+| Maths | 基础数学方法 | 数学逻辑解题方法 (包含 字符串数组的解题思路) 阅读理解 | |
+| Array | 排序 去重 嵌套循环(暴力解题) 合理使用Array.API | 考虑时间和空间复杂度 嵌套循环的时间复杂度是 O(n^2) 优化方向是使用 O(1)的复杂度实现 O(1)<O(logn)<O(n)<O(nlogn)<O(n²)<O(n³)<O(2ⁿ)<O(n!)| |
+| Tree | 递归 | 二叉树的数据结构适合使用递归 | |
+| Object 面向对象编程 | 业务向 | 阅读理解题目 | |
+| ListNode | 递归 双指针 | 不熟悉递归算法 无应用 | |
+| Sql | mySql语法糖 | 目前碰到的题目不算太难 |
