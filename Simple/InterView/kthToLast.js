@@ -1,25 +1,15 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} head
- * @param {number} k
- * @return {number}
- */
-var kthToLast = function(head, k) {
-  let kn = head;
-  let ln = head;
-  let index = 0;
-  while (kn) {
-    index++;
-    if (index > k) {
-      ln = ln.next;
-    }
-    kn = kn.next;
+// 老方法：p,q两个指针，让p先走k步，然后p,q一起走，直到p为null
+
+var getKthFromEnd = function(head, k) {
+  let p = head, q = head;
+
+  let i = 0;
+  while (p) {
+      if (i >= k) {
+          q = q.next;
+      }
+      p = p.next;
+      i++;
   }
-  return ln.val
+  return i < k ? null : q;
 };

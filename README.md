@@ -101,6 +101,7 @@ PersonalCode    //个人代码
      - twitter [设计推特](https://leetcode-cn.com/problems/design-twitter/) 数据库设计
      - MyQueue [化栈为队列](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/) 实现 用两个数组管理进出栈的 队列
      - CQueue [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) 使用两个数组 一个数组进栈 一个数组出栈
+     - MyHash [设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) 哈希表
 
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)

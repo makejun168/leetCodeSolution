@@ -11,7 +11,7 @@ var MyHashSet = function () {
  * @return {void}
  */
 MyHashSet.prototype.add = function (key) {
-    this._bucket.push(key);
+    this._bucket[key] = true;
 };
 
 /** 
