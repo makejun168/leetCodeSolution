@@ -10,6 +10,7 @@ var distributeCandies = function (candies) {
     if (candies.length === 0) {
         return 0
     }
+    
     //查看有多少个种类的糖果
     let hash = new Object(), resArr = [], maxRes = Math.floor(candies.length / 2);
     for (let item of candies) {

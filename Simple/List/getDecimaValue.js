@@ -16,7 +16,7 @@ var getDecimalValue = function(head) {
     number += head.val
     head = head.next;
   }
-  return parseInt(number,2)
+  return parseInt(number, 2)
 };
 
 // console.log(getDecimalValue([1,0,1]))
