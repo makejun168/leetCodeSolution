@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-73 / 1564
+74 / 1564
 
-> 已经通过的题目：73
+> 已经通过的题目：74
 > 提交未通过的题目 11  
 > 未开始的题目：1552  
 
@@ -103,6 +103,8 @@ PersonalCode    //个人代码
      - CQueue [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) 使用两个数组 一个数组进栈 一个数组出栈
      - MyHash [设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) 哈希表
 
+> Normal 中等难度
+
 - Normal
     - maxIncreaseKeepingSkyline [保持城市的天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)
     - TinyURL [TinyURL 的加密与解密](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)
@@ -113,8 +115,10 @@ PersonalCode    //个人代码
     - pow [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) 实现pow方法
     - mergeTwoList [合并两个链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 合并两个链表
 
-- Difficult
-    - 暂无👍
+> Difficult
+
+    + Array
+        - 暂无👍
 
 #### 总结
 
