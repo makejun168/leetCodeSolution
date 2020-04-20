@@ -45,6 +45,7 @@ PersonalCode    //个人代码
     - findNumbers [统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/)
     - printNumbers [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
     - minCount [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/)
+    - hammingDistance [汉明的距离](https://leetcode-cn.com/problems/hamming-distance/) 值得参考 布克尼根运算法
 
 - Array
      - peakIndexInMountainArray [山脉数组的峰顶索引](https://leetcode-cn.com/=problems/peak-index-in-a-mountain-array/])
@@ -130,7 +131,7 @@ PersonalCode    //个人代码
 | --- | --- | --- | --- | --- |
 | String | 正则表达式 转化成数组判断 效率低 | 正则匹配难度大 转化是数组判断效率低下 数据类型转换浪费性能 | |
 | Maths | 基础数学方法 | 数学逻辑解题方法 (包含 字符串数组的解题思路) 阅读理解 | |
-| Array | 排序 去重 嵌套循环(暴力解题) 合理使用Array.API | 考虑时间和空间复杂度 嵌套循环的时间复杂度是 O(n^2) 优化方向是使用 O(1)的复杂度实现 O(1)<O(logn)<O(n)<O(nlogn)<O(n²)<O(n³)<O(2ⁿ)<O(n!)| |
+| Array | 二分法查找(递归) 排序 去重 嵌套循环(暴力解题) 合理使用Array.API | 考虑时间和空间复杂度 嵌套循环的时间复杂度是 O(n^2) 优化方向是使用 O(1)的复杂度实现 O(1)<O(logn)<O(n)<O(nlogn)<O(n²)<O(n³)<O(2ⁿ)<O(n!)| |
 | Tree | 递归 | 二叉树的数据结构适合使用递归 | |
 | Object 面向对象编程 | 业务向 | 阅读理解题目 | |
 | ListNode | 递归 双指针 | 不熟悉递归算法 无应用 | |
