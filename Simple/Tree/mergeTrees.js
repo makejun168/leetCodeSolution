@@ -10,32 +10,22 @@
  * @param {TreeNode} t2
  * @return {TreeNode}
  */
-var mergeTrees = function (t1, t2) {
-    //遍历转化为数组
-    let targetArr1 = [];
-    // let resArr = [];
-    // let longArr = [];
-    // let shortArr = [];
-    // if (t1.length > t2.length) {
-    //     longArr = t1;
-    //     shortArr = t2;
-    // } else {
-    //     longArr = t2;
-    //     shortArr = t1
-    // }
 
-    // for (let i = 0; i < longArr.length; i++) {
-    //     let merge = null;
-    //     if (!shortArr[i]) {
-    //         merge = longArr[i];
-    //     } else {
-    //         merge = longArr[i] + shortArr[i];
-    //     }
-    //     resArr.push(merge)
-    // }
-    // return resArr
+// 递归
+var mergeTrees = function(t1, t2) {
+    // 合并两个节点
+    // 当t1没有的 时候直接返回t2
+    // 同理
+    if (!t1) {
+        return t2;
+    }
+    if (!t2) {
+        return t1;
+    }
+    // 递归走逻辑
+    let root = new TreeNode();
+    root.val = t1.val + t2.val;
+    root.left = mergeTrees(t1.left, t2.left);
+    root.right = mergeTrees(t1.right, t2.right);
+    return root;
 };
-var arr1 = [1, 3, 2, 5]
-var arr2 = [2, 1, 3, null, 4, null, 7]
-let res = mergeTrees(arr1, arr2);
-console.log(res);

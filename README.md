@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-74 / 1564
+75 / 1564
 
-> 已经通过的题目：74
+> 已经通过的题目：75
 > 提交未通过的题目 11  
 > 未开始的题目：1552  
 
@@ -91,6 +91,7 @@ PersonalCode    //个人代码
 
 
 - Tree
+    - mergeTrees [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees) 二叉树思路 原始函数的递归进行 参数是提示 进来先判断 然后走逻辑 最后返回节点
     - mirrorTree [二叉树镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) 二叉树一般使用递归
     - rangeSumBST [搜索二叉树](https://leetcode-cn.com/problems/range-sum-of-bst/) 二叉树需要 再学习一下 递归的思想
     - invertTree [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) 记住二叉树一般使用递归的方法
@@ -131,3 +132,6 @@ PersonalCode    //个人代码
 | Object 面向对象编程 | 业务向 | 阅读理解题目 | |
 | ListNode | 递归 双指针 | 不熟悉递归算法 无应用 | |
 | Sql | mySql语法糖 | 目前碰到的题目不算太难 |
+
+#### 金句
+递归的是人，迭代的是神。
