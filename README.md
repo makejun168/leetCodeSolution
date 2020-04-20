@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-75 / 1564
+80 / 1564
 
-> 已经通过的题目：75
+> 已经通过的题目：80
 > 提交未通过的题目 11  
 > 未开始的题目：1552  
 
@@ -44,6 +44,7 @@ PersonalCode    //个人代码
     - subtractProductAndSum [证书的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
     - findNumbers [统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/)
     - printNumbers [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+    - minCount [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/)
 
 - Array
      - peakIndexInMountainArray [山脉数组的峰顶索引](https://leetcode-cn.com/=problems/peak-index-in-a-mountain-array/])
@@ -115,6 +116,7 @@ PersonalCode    //个人代码
     - [换位置](https://leetcode-cn.com/problems/exchange-seats/) mysql 语法学习list
     - pow [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) 实现pow方法
     - mergeTwoList [合并两个链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 合并两个链表
+    - numIslands [岛屿的数量](https://leetcode-cn.com/problems/number-of-islands/) 推荐的算法
 
 > Difficult
 
