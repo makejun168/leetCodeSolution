@@ -12,7 +12,6 @@
  */
 
 
-
 var mergeTwoLists = function(l1, l2) {
   let dumy = new ListNode(0);
   let p = dumy;
