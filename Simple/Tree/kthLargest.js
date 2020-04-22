@@ -15,18 +15,19 @@ var kthLargest = function (root, k) {
   // 二叉搜索树的逆中序遍历
   if (!root) return null;
 
-  let stack = [],
-    count = 0;
+  let stack = [], count = 0;
 
   while (root || stack.length) {
     if (root) {
       stack.push(root);
+      // 右边的节点开始先入栈
       root = root.right;
     } else {
       let cur = stack.pop();
-      if (++count == k) {
+      if ( ++count == k ) {
         return cur.val;
       }
+      // 开始遍历左边的二叉树
       root = cur.left;
     }
   }

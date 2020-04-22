@@ -14,8 +14,8 @@
 
 var mirrorTree = function(root) {
     if(!root) return null
-    let left=root.left
-    root.left=mirrorTree(root.right)
-    root.right=mirrorTree(left)
+    let left = root.left;
+    root.left = mirrorTree(root.right);
+    root.right = mirrorTree(left);
     return root
 };

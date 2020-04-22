@@ -11,7 +11,7 @@
  * @return {TreeNode}
  */
 
-// 递归
+// 递归 合并两个二叉树
 var mergeTrees = function(t1, t2) {
     // 合并两个节点
     // 当t1没有的 时候直接返回t2
@@ -22,6 +22,7 @@ var mergeTrees = function(t1, t2) {
     if (!t2) {
         return t1;
     }
+
     // 递归走逻辑
     let root = new TreeNode();
     root.val = t1.val + t2.val;

@@ -9,6 +9,9 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
+
+// 算出最大值的二叉树 然后递减
+
 var constructMaximumBinaryTree = function(nums) {
     if (nums.length === 0) {
         return null;

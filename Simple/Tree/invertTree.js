@@ -10,7 +10,7 @@
  * @return {TreeNode}
  */
 
-
+// 反转二叉树
 var invertTree = function(root) {
     if (!root) {
         return null;
