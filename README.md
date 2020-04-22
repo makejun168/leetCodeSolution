@@ -3,11 +3,12 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-82 / 1564
+88 / 1614
 
-> 已经通过的题目：82
+> 已经通过的题目：88
 > 提交未通过的题目 11  
-> 未开始的题目：1552  
+> 未开始的题目：1523  
+> 尝试过没有成功 8 
 
 ### 目录结构
 ```
@@ -21,6 +22,8 @@ PersonalCode    //个人代码
 ### 通过的题目 通过类型不同进行分类
 > Simple 简单
 - String
+    - freqAlphabets [解码字母到整数映射](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) fromCharCode charCodeAt 互相转化
+    - generateTheString [生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/)
     - reverseLeftWords [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
     - strStr [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
     - reverseString [反转字符串](https://leetcode-cn.com/problems/reverse-string/)
@@ -29,7 +32,7 @@ PersonalCode    //个人代码
     - toLowerCase [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
     - defangIPaddr [IP地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/)
     - replaceSpace [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
-    - removeOuterParentheses [删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) 正则表达式不会
+    - removeOuterParentheses [删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) 复杂题目值得参考
     - sortString [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 有参考价值
 
 - Maths
@@ -46,6 +49,7 @@ PersonalCode    //个人代码
     - printNumbers [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
     - minCount [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/)
     - hammingDistance [汉明的距离](https://leetcode-cn.com/problems/hamming-distance/) 值得参考 布克尼根运算法
+    - maximum69Number [6和9的最大数字组合](https://leetcode-cn.com/problems/maximum-69-number/)
 
 - Array
      - peakIndexInMountainArray [山脉数组的峰顶索引](https://leetcode-cn.com/=problems/peak-index-in-a-mountain-array/])
@@ -93,13 +97,14 @@ PersonalCode    //个人代码
 
 
 - Tree
+    - kthLargest [二叉搜索树的最大K节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) 看答案的
     - mergeTrees [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees) 二叉树思路 原始函数的递归进行 参数是提示 进来先判断 然后走逻辑 最后返回节点
     - mirrorTree [二叉树镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) 二叉树一般使用递归
     - rangeSumBST [搜索二叉树](https://leetcode-cn.com/problems/range-sum-of-bst/) 二叉树需要 再学习一下 递归的思想
     - invertTree [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) 记住二叉树一般使用递归的方法
     - constructMaximumBinaryTree [最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) leetcode 对二叉树支持不好 bug多
     - maxDepth [二叉树的深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
-    - sortedArrayToBST [最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/)
+    - sortedArrayToBST [最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) 看答案的
 
 - Object 面向对象编程
      - twitter [设计推特](https://leetcode-cn.com/problems/design-twitter/) 数据库设计
@@ -119,6 +124,7 @@ PersonalCode    //个人代码
     - pow [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) 实现pow方法
     - mergeTwoList [合并两个链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 合并两个链表
     - numIslands [岛屿的数量](https://leetcode-cn.com/problems/number-of-islands/) 推荐的算法
+    - rightSideView [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
 
 > Difficult
 
@@ -132,7 +138,7 @@ PersonalCode    //个人代码
 | String | 正则表达式 转化成数组判断 效率低 | 正则匹配难度大 转化是数组判断效率低下 数据类型转换浪费性能 | |
 | Maths | 基础数学方法 | 数学逻辑解题方法 (包含 字符串数组的解题思路) 阅读理解 | |
 | Array | 二分法查找(递归) 排序 去重 嵌套循环(暴力解题) 合理使用Array.API | 考虑时间和空间复杂度 嵌套循环的时间复杂度是 O(n^2) 优化方向是使用 O(1)的复杂度实现 O(1)<O(logn)<O(n)<O(nlogn)<O(n²)<O(n³)<O(2ⁿ)<O(n!)| |
-| Tree | 递归 | 二叉树的数据结构适合使用递归 | |
+| Tree | 递归 | 二叉树的数据结构适合使用递归 常见树的层次遍历有DFS和BFS两种方法 | |
 | Object 面向对象编程 | 业务向 | 阅读理解题目 | |
 | ListNode | 递归 双指针 | 不熟悉递归算法 无应用 | |
 | Sql | mySql语法糖 | 目前碰到的题目不算太难 |
