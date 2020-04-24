@@ -3,7 +3,7 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-90 / 1614
+93 / 1614
 
 > 已经通过的题目：90  
 > 提交未通过的题目 11  
@@ -76,6 +76,9 @@ PersonalCode    //个人代码
      - heightChecker [高度检查器](https://leetcode-cn.com/problems/height-checker/) 参考价值
      - arrayPairSum [数组拆分](https://leetcode-cn.com/problems/array-partition-i/)
      - luckyNumbers [幸运数字](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
+     - singleNumber [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+     - majorityElement [多数元素](https://leetcode-cn.com/problems/majority-element/)
+     - moveZeroes [移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
 - Sql
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
@@ -144,6 +147,7 @@ PersonalCode    //个人代码
 | Sql | mySql语法糖 | 目前碰到的题目不算太难 |
 
 #### 金句
-递归的是人，迭代的是神。
-递归二叉树，一般操作
-深度遍历二叉树，不会的操作 dns 配合栈一起使用
+递归的是人，迭代的是神。  
+递归二叉树，一般操作  
+深度遍历二叉树，不会的操作 dfs 配合栈一起使用  
+
