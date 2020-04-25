@@ -12,12 +12,10 @@
 var permute = function(nums) {
     var result = [];
     let len = nums.length;
-    let queue = [];
-    let isUse = [];
+    let queue = []; // 存放排列队列
+    let isUse = []; // 判断是否已经使用过该节点
     if (!len) {return []}
-    for (let i = 0; i < nums.length; i++) {
 
-    }
     function dfs(nums, len, start, queue, isUse, result) {
         if (len === start) {
             result.push([...queue]);
@@ -27,9 +25,9 @@ var permute = function(nums) {
             if (isUse[i]) {
                 continue
             }
-            queue.push(nums[i]);
-            isUse[i] = true;
-            dfs(nums, len, start + 1, queue, isUse, result);
+            queue.push(nums[i]); //存入队列
+            isUse[i] = true; // 判断已经存入队列的 数据
+            dfs(nums, len, start + 1, queue, isUse, result); // 递归
             // 关键一步 回溯 将状态重置
             queue.pop();
             isUse[i] = false;
