@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-94 / 1614
+96 / 1614
 
-> 已经通过的题目：94  
+> 已经通过的题目：96  
 > 提交未通过的题目 11  
 > 未开始的题目：1523  
 > 尝试过没有成功 8 
@@ -128,6 +128,8 @@ PersonalCode    //个人代码
     - mergeTwoList [合并两个链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) 合并两个链表
     - numIslands [岛屿的数量](https://leetcode-cn.com/problems/number-of-islands/) 推荐的算法
     - rightSideView [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+    - subsets [子集](https://leetcode-cn.com/problems/subsets/) 循环递归方法
+    - permute [全排列](https://leetcode-cn.com/problems/permutations/) dfs算法 深度优先算法 广度优先算法
 
 > Difficult
 
