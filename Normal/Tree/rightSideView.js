@@ -41,29 +41,28 @@ var rightSideView = function(root) {
   if(root==null) return []
 
   // 定义数组（队列）
-  var arr=[]
+  var arr = [];
   // 定义最终答案存放数组
-  var res=[]
+  var res=[];
   // 将二叉树放在队列中
-  arr.push(root)
+  arr.push(root);
 
 
   // 开始遍历
   while(arr.length > 0) {
     // 最后一位拼接到 最终答案中
-    res.push(arr[arr.length-1].val);
-    var len = arr.length;
-    // 内
+    res.push(arr[arr.length - 1].val);
+    let len = arr.length;
     while (len>0) {
       var now = arr.shift();
-      if (now.left!=null)
-        arr.push(now.left)
-      if(now.right!=null)
+      if (now.left !== null)
+        arr.push(now.left);
+      if(now.right !== null)
         arr.push(now.right)
       // 递减
-      len--
+      len--;
     }
   }
-  return res
+  return res;
 
 };

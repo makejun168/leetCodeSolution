@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-96 / 1614
+100 / 1614
 
-> 已经通过的题目：96  
+> 已经通过的题目：100  
 > 提交未通过的题目 11  
 > 未开始的题目：1523  
 > 尝试过没有成功 8 
@@ -79,6 +79,7 @@ PersonalCode    //个人代码
      - singleNumber [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
      - majorityElement [多数元素](https://leetcode-cn.com/problems/majority-element/)
      - moveZeroes [移动零](https://leetcode-cn.com/problems/move-zeroes/)
+     - findDisappearedNumbers [找到数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) 空间时间控制 在 O(n)
 
 - Sql
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
@@ -108,6 +109,8 @@ PersonalCode    //个人代码
     - constructMaximumBinaryTree [最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) leetcode 对二叉树支持不好 bug多
     - maxDepth [二叉树的深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
     - sortedArrayToBST [最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) 看答案的
+    - convertBST [把二叉树搜索树转换成累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) 回溯算法
+    - isSymmetric [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 
 - Object 面向对象编程
      - twitter [设计推特](https://leetcode-cn.com/problems/design-twitter/) 数据库设计
@@ -130,6 +133,8 @@ PersonalCode    //个人代码
     - rightSideView [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
     - subsets [子集](https://leetcode-cn.com/problems/subsets/) 循环递归方法
     - permute [全排列](https://leetcode-cn.com/problems/permutations/) dfs算法 深度优先算法 广度优先算法
+    - generateParenthesis [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+    - inOrderTraversal [二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
 > Difficult
 

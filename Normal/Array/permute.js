@@ -9,6 +9,8 @@
 
 
  // 回溯算法 dfs 算法
+ // 递归树木节点决定的
+ // 时间和空间 O(n * n!) 指数级别
 var permute = function(nums) {
     var result = [];
     let len = nums.length;
@@ -34,6 +36,27 @@ var permute = function(nums) {
         }
     }
     dfs(nums,len, 0, queue, isUse, result);
+    return result;
+};
+
+// 广度优先遍历 其他方法
+var permute = function(nums) {
+    let result = [];
+    let prev = null;
+    let cur = [];
+    for (let i = 0; i < nums.length; i++) {
+        prev = result;
+        result = [];
+        for (let j = 0; j < prev.length; j++) {
+            cur = prev[i];
+            if (j < cur.length) {
+                cur.splice(j, 0, nums[i]);
+            } else {
+                cur.push(nums[i]);
+            }
+            result.push(cur);
+        }
+    }
     return result;
 };
 
