@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-100 / 1614
+101 / 1614
 
-> 已经通过的题目：100  
+> 已经通过的题目：101  
 > 提交未通过的题目 11  
 > 未开始的题目：1523  
 > 尝试过没有成功 8 
@@ -50,6 +50,8 @@ PersonalCode    //个人代码
     - minCount [拿硬币](https://leetcode-cn.com/problems/na-ying-bi/)
     - hammingDistance [汉明的距离](https://leetcode-cn.com/problems/hamming-distance/) 值得参考 布克尼根运算法
     - maximum69Number [6和9的最大数字组合](https://leetcode-cn.com/problems/maximum-69-number/)
+    - minStartValue [求和得到的正数的最小值](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+    - isHappy [快乐数](https://leetcode-cn.com/problems/happy-number/) 利用数组存起来猜测的数字 如果形成闭环 退出循环
 
 - Array
      - peakIndexInMountainArray [山脉数组的峰顶索引](https://leetcode-cn.com/=problems/peak-index-in-a-mountain-array/])
@@ -80,6 +82,7 @@ PersonalCode    //个人代码
      - majorityElement [多数元素](https://leetcode-cn.com/problems/majority-element/)
      - moveZeroes [移动零](https://leetcode-cn.com/problems/move-zeroes/)
      - findDisappearedNumbers [找到数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) 空间时间控制 在 O(n)
+     - twoCitySchedCost [两地调度](https://leetcode-cn.com/problems/two-city-scheduling/) 
 
 - Sql
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
