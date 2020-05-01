@@ -3,9 +3,9 @@
 [刷题地址][https://leetcode-cn.com/]  
 
 ### 进度
-101 / 1614
+103 / 1614
 
-> 已经通过的题目：101  
+> 已经通过的题目：103  
 > 提交未通过的题目 11  
 > 未开始的题目：1523  
 > 尝试过没有成功 8 
@@ -15,7 +15,7 @@
 Simple          //简单难度
 Normal          //中等难度
 Difficult       //困难难度
-PersonalCode    //个人代码
+PersonalCode    //个人
 ```
 
 
@@ -36,6 +36,7 @@ PersonalCode    //个人代码
     - sortString [上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/) 使用字典排序 sort((a, b) => a.charCodeAt() - b.charCodeAt()) 有参考价值
 
 - Maths
+    - isPalindrome [回文数字](https://leetcode-cn.com/problems/palindrome-number/)
     - numberOfSteps [将数字变成0的次数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
     - distributeCandies [分糖果](https://leetcode-cn.com/problems/distribute-candies/)
     - reverse [整数反转](https://leetcode-cn.com/problems/reverse-integer/)
@@ -138,6 +139,8 @@ PersonalCode    //个人代码
     - permute [全排列](https://leetcode-cn.com/problems/permutations/) dfs算法 深度优先算法 广度优先算法
     - generateParenthesis [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
     - inOrderTraversal [二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+    - maxArea [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/submissions/)
+    - levelOrder [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
 > Difficult
 
