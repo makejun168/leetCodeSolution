@@ -84,6 +84,7 @@ PersonalCode    //个人
      - moveZeroes [移动零](https://leetcode-cn.com/problems/move-zeroes/)
      - findDisappearedNumbers [找到数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) 空间时间控制 在 O(n)
      - twoCitySchedCost [两地调度](https://leetcode-cn.com/problems/two-city-scheduling/) 
+     - findMaxConsecutiveOnes [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)
 
 - Sql
     - movie [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/)
