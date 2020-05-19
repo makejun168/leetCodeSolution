@@ -1,6 +1,6 @@
 # leetCodeSolution
 通过Javascript去实现leetCode的题目  
-[刷题地址][https://leetcode-cn.com/]  
+[刷题地址](https://leetcode-cn.com/)  
 
 ### 进度
 103 / 1614
