@@ -133,7 +133,9 @@ PersonalCode    //个人
   - MyHash [设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) 哈希表
 
 * 动态规划
+
 	- fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
+	- coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
 
 > Normal 中等难度
 
