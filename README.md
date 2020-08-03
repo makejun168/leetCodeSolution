@@ -7,7 +7,7 @@
 
 103 / 1733
 
-> 已经通过的题目：108  
+> 已经通过的题目：111  
 > 提交未通过的题目 11  
 > 未开始的题目：1733  
 > 尝试过没有成功 8
@@ -92,6 +92,7 @@ PersonalCode    //个人
   - findDisappearedNumbers [找到数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) 空间时间控制 在 O(n)
   - twoCitySchedCost [两地调度](https://leetcode-cn.com/problems/two-city-scheduling/)
   - findMaxConsecutiveOnes [最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)
+  - runningSum [一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/submissions/) 循环递归
 
 - Sql
 
@@ -136,6 +137,7 @@ PersonalCode    //个人
 
 	- fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
 	- coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
+  - climbStairs [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/submissions/) 爬楼梯总共有多少种可能
 
 > Normal 中等难度
 
