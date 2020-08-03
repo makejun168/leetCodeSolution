@@ -138,6 +138,7 @@ PersonalCode    //个人
 	- fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
 	- coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
   - climbStairs [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/submissions/) 爬楼梯总共有多少种可能
+  - maxProfit [买股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 
 > Normal 中等难度
 
