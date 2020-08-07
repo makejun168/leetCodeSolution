@@ -2,16 +2,15 @@
  * @param {number[]} arr
  * @return {number[]}
  */
-var replaceElements = function(arr) {
+var replaceElements = function (arr) {
   let resultArr = [];
   for (let i = 0; i < arr.length; i++) {
     let target = Math.max(...arr.slice(i + 1));
-    resultArr.push(target)
+    resultArr.push(target);
   }
   resultArr.splice(-1, 1, -1);
   return resultArr;
 };
-
 
 // 更优解法
 // var replaceElements = function(arr) {
@@ -24,5 +23,4 @@ var replaceElements = function(arr) {
 //   return res;
 // };
 
-
-replaceElements([17,18,5,4,6,1]);
+replaceElements([17, 18, 5, 4, 6, 1]);
