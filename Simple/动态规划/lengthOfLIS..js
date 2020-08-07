@@ -8,4 +8,25 @@
  * @param {number[]} nums
  * @return {number}
  */
-var lengthOfLIS = function (nums) {};
+
+// 1. 暴力 求解 2 ^ n
+// 2. DP DP[i] 从 0 开始 => i 元素 最长的子序列的长度
+
+// Max(DP[0].... DP[n-1])
+
+function lengthOfLIS(nums) {
+  let dp = new Array(nums.length).fill(1); // 默认为1
+  for (let i = 0; i < nums.length; i++) {
+      for (let j = 0; j < i; j ++) {
+          if (nums[j] < nums[i]) {
+              dp[i] = Math.max(dp[i], dp[j] + 1);
+          }
+      }
+  }
+  
+  let res = 0;
+  for (let i = 0; i < dp.length; i++) {
+      res = Math.max(res, dp[i]);
+  }
+  return res;
+}
