@@ -5,9 +5,9 @@
 
 ### 进度
 
-103 / 1733
+113 / 1747
 
-> 已经通过的题目：111  
+> 已经通过的题目：113  
 > 提交未通过的题目 11  
 > 未开始的题目：1733  
 > 尝试过没有成功 8
@@ -140,6 +140,7 @@ PersonalCode    //个人
   - climbStairs [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/submissions/) 爬楼梯总共有多少种可能
   - maxProfit [买股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
   - lengthOfLIS [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 二分查找法 动态规划经典算法
+  - maxSubArray [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
 > Normal 中等难度
 
