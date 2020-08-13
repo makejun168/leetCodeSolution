@@ -30,7 +30,11 @@ var canPartition = function (nums) {
   // base case
   for (let i = 0; i <= n; i++) {
     dp[i] = [];
-    dp[i][0] = true;
+    if (i === 0) {
+      dp[i][0] = false;
+    } else {
+      dp[i][0] = true;
+    }
   }
 
   // 逻辑代码
@@ -51,4 +55,30 @@ var canPartition = function (nums) {
   return dp[n][sum] || false;
 };
 
-canPartition([1, 5, 11, 5]);
+// 压缩空间
+var canPartition2 = function (nums) {
+  let n = nums.length;
+  let sum = 0;
+  for (let i = 0; i < n; i++) {
+    sum += nums[i];
+  }
+  // 如果总数是奇数的话 不可能划分成 两个数组
+  if (sum % 2 !== 0) return false;
+  sum = sum / 2; // 分割一半是 背包的容量
+  let dp = []; // 定义二维数组空间
+  dp[0] = true;
+
+  for (let i = 0; i < n; i++) {
+    for (let j = sum; j >= 0; j--) {
+      if (j - nums[i] >= 0) {
+        dp[j] = dp[j] || dp[j - nums[i]];
+      }
+    }
+  }
+  
+  console.log(dp);
+
+  return dp[sum];
+};
+
+canPartition2([1, 5, 11, 5]);
