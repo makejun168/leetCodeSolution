@@ -142,6 +142,8 @@ PersonalCode    //个人
   - lengthOfLIS [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 二分查找法 动态规划经典算法
   - maxSubArray [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) 最大子数组
   - canPartition [分割等和子集合](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+  - change [零钱问题2](https://leetcode-cn.com/problems/coin-change-2/submissions/)
+  - minDistance [编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 
 > Normal 中等难度
 
