@@ -37,5 +37,3 @@ var constructMaximumBinaryTree = function(nums) {
 };
 
 constructMaximumBinaryTree([3,2,1,6,0,5])
-
-
