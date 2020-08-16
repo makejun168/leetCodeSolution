@@ -138,12 +138,14 @@ PersonalCode    //个人
 	- fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
 	- coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
   - climbStairs [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/submissions/) 爬楼梯总共有多少种可能
-  - maxProfit [买股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+  - maxProfit [买股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) 只能购买卖出1次
+  - maxProfit2 [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) 可以购买卖出多次，但是不能多线操作
+  - maxProfit3 [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) 可以同时做两笔交易
   - lengthOfLIS [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 二分查找法 动态规划经典算法
   - maxSubArray [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) 最大子数组
   - canPartition [分割等和子集合](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
   - change [零钱问题2](https://leetcode-cn.com/problems/coin-change-2/submissions/)
-  - minDistance [编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+  - minDistance [编辑距离](https://leetcode-cn.com/problems/edit-distance/) 太难了 未解决
 
 > Normal 中等难度
 
