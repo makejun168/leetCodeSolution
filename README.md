@@ -141,6 +141,9 @@ PersonalCode    //个人
   - maxProfit [买股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) 只能购买卖出1次
   - maxProfit2 [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) 可以购买卖出多次，但是不能多线操作
   - maxProfit3 [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) 可以同时做两笔交易
+  - maxProfit4 [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) 可以做K次交易 算法是相同的
+  - maxProfit5 [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) 只能做一次交易 卖出股票以后第二天不能再买入股票
+  - maxProfit6 [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) 买股票的最佳时机会 并且需要手续费
   - lengthOfLIS [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 二分查找法 动态规划经典算法
   - maxSubArray [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) 最大子数组
   - canPartition [分割等和子集合](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
