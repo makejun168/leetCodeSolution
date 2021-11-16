@@ -1,15 +1,44 @@
-# leetCodeSolution
+# leetCode
 
-通过 Javascript 去实现 leetCode 的题目  
-[刷题地址](https://leetcode-cn.com/)
+小小前端目标刷够 LeetCode 热门100 + 剑指 Offer 题目，附上简单的答题思路
+
+* [🔥 LeetCode 热题 HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/)
+* [剑指 Offer（第 2 版）](https://leetcode-cn.com/problem-list/xb9nqhhg/)
+
+## 目录结构
+
+根据题目的解法或者数据结构分类，可能存在同一题目，多个不同的分类情况
+
+* 数据结构
+  * String 字符串
+  * Array 数组
+  * Tree 二叉树
+  * Stack 栈
+  * List 链表
+  * Queue 队列
+  * Hash 哈希表
+* 算法分类
+  * 递归
+    * DFS 深度优先遍历
+    * BFS 广度优先遍历
+  * 回溯
+  * 分治
+  * 贪心算法
+  * 动态规划
+    * 记忆化搜索
+    * 线性DP
+    * 背包DP
+  * 位运算
+  * 排序
+  * 
 
 ### 进度
 
-114 / 1747
+41 / 175
 
-> 已经通过的题目：114  
-> 提交未通过的题目 11  
-> 未开始的题目：1747  
+> 已经通过的题目：41  
+> 提交未通过的题目 0  
+> 未开始的题目：134  
 > 尝试过没有成功 8
 
 ### 目录结构
@@ -20,6 +49,7 @@ Normal          //中等难度
 Difficult       //困难难度
 PersonalCode    //个人
 ```
+
 
 ### 通过的题目 通过类型不同进行分类
 
@@ -135,8 +165,8 @@ PersonalCode    //个人
 
 * 动态规划
 
-	- fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
-	- coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
+  - fib [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) 斐波那契数
+  - coinChange [零钱兑换](https://leetcode-cn.com/problems/coin-change/) 零钱兑换
   - change [零钱问题2](https://leetcode-cn.com/problems/coin-change-2/submissions/)
   - rob [打家劫舍](https://leetcode-cn.com/problems/house-robber/) 经典动态规划
   - rob2 [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii//) 房子围一圈
