@@ -23,4 +23,28 @@ let majorityElement = function(nums) {
     return maxKey;
 };
 
-majorityElement(a)
+// majorityElement(a)
+
+
+var firstUniqChar = function(s) {
+    if (!s.length) return " "; // 返回空的字符串
+    let result = ' ';
+    let hash = new Map();
+    for (let i = 0; i < s.length; i++) {
+        if (!hash.has(s[i])) {
+            hash.set(s[i], 1)
+        } else {
+            // 已经存在的话，马上提示
+            hash.set(s[i], hash.get(s[i]) + 1)
+        }
+    }
+    for (let item of hash) {
+        if (item[1] === 1) {
+            result = item[0]
+            return result;
+        }
+    }
+    return result;
+};
+
+firstUniqChar('leetCode');
