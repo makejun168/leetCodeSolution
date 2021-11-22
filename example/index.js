@@ -1,6 +1,6 @@
 /**
  * @param {number} n
- * @return {number}
+ * @return {boolean}
  */
 //  var nthUglyNumber = function(n) {
 //      if (n < 1) return 0
@@ -44,3 +44,62 @@
 //     console.log(i);
 //     return i
 // };
+
+
+// var findNumberIn2DArray = function(matrix, target) {
+//     if (!matrix.length) return false
+//     let i = 0; // 下标
+//     let row_count = matrix.length; // 行
+//     let columns_count = matrix[0].length; // 列
+//     let j = matrix[0].length - 1;
+//
+//     while (i < row_count && j >= 0) {
+//         let value = matrix[i][j];
+//         if (value === target) {
+//             return true;
+//         } else if (target < value) {
+//             j -= 1; // 上一列
+//         } else {
+//             i += 1; // 下一行
+//         }
+//     }
+//     return false;
+// };
+//
+// findNumberIn2DArray([[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], 5)
+
+
+
+// var twoSum = function(nums, target) {
+//     let result = [];
+//     let hash = new Map();
+//     for (let i = 0; i < nums.length; i++) {
+//         if (hash.has(target - nums[i])) {
+//             return [nums[i], target- nums[i]]
+//         }
+//         hash.set(nums[i], true)
+//     }
+//     return result;
+// };
+//
+// console.log(twoSum([2,7,11,15], 9))
+
+
+var minArray = function(numbers) {
+    let i = 0;
+    let j = numbers.length - 1;
+    while (i < j) {
+        let middle = Math.floor((i + j) / 2);
+        if (numbers[middle] < numbers[j]) {
+            j = middle
+        } else if (numbers[middle] > numbers[j]) {
+            i = middle + 1;
+        } else {
+            j -= 1
+        }
+    }
+    console.log(numbers[i])
+    return numbers[i]; // 二分查找 最大位数的下标
+};
+
+minArray([3,4,5,1,2])

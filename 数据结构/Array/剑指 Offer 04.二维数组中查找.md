@@ -48,5 +48,32 @@ var findNumberIn2DArray = function(matrix, target) {
 ### 解法二
 
 利用递增 从左边到右边 递增的顺序
+动态设置 行列 位置，减少遍历的次数
 
+* 目标数字小于二维数组中 第一行的最后一列的数字的话，将列的指针 - 1
+* 目标数字大于二维数组中 第一行的最后一列的数字的话，将行的指针 + 1
+* 等于的话将 输出 true
+* 时间复杂度 O(n)
+* 空间复杂度 O(1)
 
+```js
+var findNumberIn2DArray = function(matrix, target) {
+    if (!matrix.length) return false
+    let i = 0; // 下标
+    let row_count = matrix.length; // 行
+    let columns_count = matrix[0].length; // 列
+    let j = matrix[0].length - 1;
+
+    while (i < row_count && j >= 0) {
+        let value = matrix[i][j];
+        if (value === target) {
+            return true;
+        } else if (target < value) {
+            j -= 1; // 上一列
+        } else {
+            i += 1; // 下一行
+        }
+    }
+    return false;
+};
+```
