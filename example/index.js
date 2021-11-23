@@ -85,21 +85,80 @@
 // console.log(twoSum([2,7,11,15], 9))
 
 
-var minArray = function(numbers) {
-    let i = 0;
-    let j = numbers.length - 1;
-    while (i < j) {
-        let middle = Math.floor((i + j) / 2);
-        if (numbers[middle] < numbers[j]) {
-            j = middle
-        } else if (numbers[middle] > numbers[j]) {
-            i = middle + 1;
+// var minArray = function(numbers) {
+//     let i = 0;
+//     let j = numbers.length - 1;
+//     while (i < j) {
+//         let middle = Math.floor((i + j) / 2);
+//         if (numbers[middle] < numbers[j]) {
+//             j = middle
+//         } else if (numbers[middle] > numbers[j]) {
+//             i = middle + 1;
+//         } else {
+//             j -= 1
+//         }
+//     }
+//     console.log(numbers[i])
+//     return numbers[i]; // 二分查找 最大位数的下标
+// };
+//
+// minArray([3,4,5,1,2])
+
+
+// var exchange = function(nums) {
+//     let i = 0;
+//     let j = nums.length - 1;
+//
+//     while (i < j) {
+//         // 判断左边的指针是否为 偶数
+//         if (nums[i] % 2 === 0 && nums[j] % 2 !== 0) {
+//             nums[i] ^= nums[j];
+//             nums[j] ^= nums[i];
+//             nums[i] ^= nums[j]; // 交换位置
+//
+//             i += 1;
+//             j -= 1;
+//         } else if (nums[i] % 2 !== 0 && nums[j] % 2 === 0) {
+//             i += 1;
+//             j -= 1;
+//         } else if (nums[i] % 2 !== 0 && nums[j] % 2 !== 0) {
+//             i += 1;
+//         } else {
+//             j -= 1;
+//         }
+//     }
+//
+//     return nums;
+// };
+//
+// exchange([2,1,4,3,5,6,2])
+
+
+var findContinuousSequence = function(target) {
+    let result = []; // 最终的结果
+    let i = 1; // 左指针
+    let j = 2; // 右指针
+    let sum = 0;
+    // 当左边的指针 大于 数组 一半跳出循环
+    while (i < target / 2) {
+        if (sum < target) {
+            sum += j;
+            j++;
+        } else if (sum > target) {
+            sum -= i;
+            i++;
         } else {
-            j -= 1
+            let arr = [];
+            for (let k = i; k < j; k++) {
+                arr.push(k);
+            }
+            result.push(arr)
+            sum -= i;
+            i++;
         }
     }
-    console.log(numbers[i])
-    return numbers[i]; // 二分查找 最大位数的下标
+    console.log(result)
+    return result;
 };
 
-minArray([3,4,5,1,2])
+findContinuousSequence(9)
