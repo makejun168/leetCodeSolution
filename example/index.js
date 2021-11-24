@@ -133,31 +133,25 @@
 //
 // exchange([2,1,4,3,5,6,2])
 
-var maxSlidingWindow = function(nums, k) {
-    if (!nums.length) return [];
-    let result = [];
-    let i = 0;
-    let j = i + k;
+var reversePairs = function(nums) {
+    let ans = [];
 
-    for (let i = 0; i < nums.length - k + 1; i++) {
-        let current = i;
-        let max = nums[i];
-        while (current < j) {
-            if (nums[current] > max) {
-                max = nums[current];
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] > nums[j]) {
+                let result = [nums[i], nums[j]];
+                ans.push(result);
+            } else {
+                continue;
             }
-            current++;
         }
-
-        result.push(max);
-        j++;
     }
 
-    console.log(result);
-    return result;
+    console.log(ans);
+    return ans.length; // 逆序对的长度
 };
 
-maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3)
+reversePairs([7,5,6,4])
 
 
 
