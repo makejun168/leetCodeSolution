@@ -133,32 +133,31 @@
 //
 // exchange([2,1,4,3,5,6,2])
 
+var maxSlidingWindow = function(nums, k) {
+    if (!nums.length) return [];
+    let result = [];
+    let i = 0;
+    let j = i + k;
 
-var findContinuousSequence = function(target) {
-    let result = []; // 最终的结果
-    let i = 1; // 左指针
-    let j = 2; // 右指针
-    let sum = 0;
-    // 当左边的指针 大于 数组 一半跳出循环
-    while (i < target / 2) {
-        if (sum < target) {
-            sum += j;
-            j++;
-        } else if (sum > target) {
-            sum -= i;
-            i++;
-        } else {
-            let arr = [];
-            for (let k = i; k < j; k++) {
-                arr.push(k);
+    for (let i = 0; i < nums.length - k + 1; i++) {
+        let current = i;
+        let max = nums[i];
+        while (current < j) {
+            if (nums[current] > max) {
+                max = nums[current];
             }
-            result.push(arr)
-            sum -= i;
-            i++;
+            current++;
         }
+
+        result.push(max);
+        j++;
     }
-    console.log(result)
+
+    console.log(result);
     return result;
 };
 
-findContinuousSequence(9)
+maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3)
+
+
+
