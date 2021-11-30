@@ -62,7 +62,6 @@ var reversePrint = function(head) {
     let len = 0;
     // 翻转链表
     // 新建一个 pre
-    // 
     while (current !== null) {
         let next = current.next;
         current.next = pre;
@@ -77,6 +76,6 @@ var reversePrint = function(head) {
         pre = pre.next;
     }
     
-    return result
+    return result;
 };
 ```
