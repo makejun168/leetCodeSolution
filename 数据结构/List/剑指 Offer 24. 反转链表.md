@@ -7,6 +7,8 @@
 输出: 5->4->3->2->1->NULL
 ```
 
+### 状态压缩
+
 
 ```js
 /**
@@ -31,5 +33,21 @@ var reverseList = function(head) {
         current = next;
     }
     return pre;
+};
+```
+
+
+### 递归
+
+```js
+var reverseList = function(head) {
+    if (head === null || head.next === null) {
+        return head
+    }
+    let next = head.next;
+    head.next = reverseList(next.next)
+    next.next = head;
+    
+    return next;
 };
 ```
