@@ -53,3 +53,28 @@ function ReturnNode (depth, isB){
     this.depth = depth;
 }
 ```
+
+### 方法二 
+
+深度计算遍历
+
+```js
+var isBalanced = function (root) {
+    if (root === null) return true;
+    
+    // 分别计算左子树 右子树高度
+    let left = depth(root.left);
+    let right = depth(root.right);
+    
+    // 左右子树高度不能超过 1 并且 他的 两个子树 也必须是 平衡二叉树
+    return Math.abs(left - right) <= 1 && isBalanced(root.left) && isBalanced(root.right);
+}
+
+var depth = function (root) {
+    if (root === null) {
+        return 0;
+    }
+    // 递归左右
+    return Math.max(depth(root.left), depth(root.right)) + 1;
+}
+```
