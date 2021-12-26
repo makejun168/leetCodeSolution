@@ -194,18 +194,19 @@
 // reversePairs([7,5,6,4])
 
 // [0, 1, 2, 3, 4]
-var lastRemaining = function(n, m) {
+// var lastRemaining = function(n, m) {
+//
+//     var f = function (n, m){
+//         if (n == 1) {
+//             return 0;
+//         }
+//         let x = f(n - 1, m);
+//         return (m + x) % n;
+//     }
+//     return f(n, m);
+// };
+//
+// console.log(lastRemaining(5, 3))
 
-    var f = function (n, m){
-        if (n == 1) {
-            return 0;
-        }
-        let x = f(n - 1, m);
-        return (m + x) % n;
-    }
-    return f(n, m);
-};
-
-console.log(lastRemaining(5, 3))
 
 
