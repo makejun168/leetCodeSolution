@@ -43,7 +43,7 @@ var cuttingRope = function(n) {
         }
     }
     
-    return dp[n]
+    return dp[n];
 };
 ```
 
