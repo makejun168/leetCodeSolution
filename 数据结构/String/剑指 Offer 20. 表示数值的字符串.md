@@ -64,6 +64,49 @@ var isNumber = function(s) {
  * @return {boolean}
  */
 var isNumber = function(s) {
+    if (s === null) return false;
     
+    let cursor = 0;
+    let isValid; // 标识变量，当前扫描是否有效
+    
+    var scanInteger = function (str) {
+        if (str[cursor] === '+' || str[cursor] === '-') {
+            cursor++;
+        }
+        return scanUnsignedInteger(str);
+    }
+    
+    var scanUnsignedInteger = function (str, index) {
+        let temp = cursor;
+        while (str[cursor] >= '0' && str[cursor] <= '9') {
+            cursor++;
+        }
+        return str[temp] >= '0' && str[temp] <= '9'; // 判断当前指针是否指向数字0-9
+    }
+    
+    s = s.trim(); // 删除开头结尾的空格
+    
+    isValid = scanInteger(s); // 先扫描整数部分
+
+    if (s[cursor] === '.') { // 此时扫完整数部分，看看有没有遇到小数点
+        cursor++;                     // 指针跳过小数点
+        if (scanUnsignedInteger(s)) { // 扫描小数部分的整数
+            isValid = true;                // 如果返回true，说明暂时是有效的数字
+        }
+        // 如果返回false，还不能说明是错的，因为有 '3.' 这种case
+    }
+
+    if (s[cursor] === 'e' || s[cursor] === 'E') { // 看看有没有遇到e/E
+        cursor++;                    // 指针跳过E/e
+        if (isValid) {               // E/e前面一定要是有效整数
+            isValid = scanInteger(s);  // E/e后面可以是有符号整数 比如 1e-9
+        }
+    }
+
+    if (s[cursor] !== undefined) { // 此时指针该越界了，我们希望它是undefined
+        return false;     // 如果不是，那就false 比如 '3..' '3 8'，一个是.一个是8
+    }
+    
+    return isValid;
 };
 ```
