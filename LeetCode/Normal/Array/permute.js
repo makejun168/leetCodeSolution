@@ -5,20 +5,18 @@
 
 
 // 递归算法
-
-
-
- // 回溯算法 dfs 算法
- // 递归树木节点决定的
- // 时间和空间 O(n * n!) 指数级别
-var permute = function(nums) {
-    var result = [];
+// 回溯算法 dfs 算法
+// 递归树木节点决定的
+// 时间和空间 O(n * n!) 指数级别
+var permute1 = function(nums) {
+    let result = [];
     let len = nums.length;
     let queue = []; // 存放排列队列
     let isUse = []; // 判断是否已经使用过该节点
     if (!len) {return []}
 
     function dfs(nums, len, start, queue, isUse, result) {
+        // 递归终止条件
         if (len === start) {
             result.push([...queue]);
             return;
@@ -32,10 +30,11 @@ var permute = function(nums) {
             dfs(nums, len, start + 1, queue, isUse, result); // 递归
             // 关键一步 回溯 将状态重置
             queue.pop();
+            // 重置状态
             isUse[i] = false;
         }
     }
-    dfs(nums,len, 0, queue, isUse, result);
+    dfs(nums, len, 0, queue, isUse, result);
     return result;
 };
 
@@ -60,4 +59,4 @@ var permute = function(nums) {
     return result;
 };
 
-console.log(permute([1,2,3]));
+console.log(permute1([1,2,3]));

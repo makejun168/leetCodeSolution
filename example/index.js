@@ -1,6 +1,6 @@
 /**
  * @param {number} n
- * @return {number}
+ * @return {*[]}
  */
 //  var nthUglyNumber = function(n) {
 //      if (n < 1) return 0
@@ -208,5 +208,56 @@
 //
 // console.log(lastRemaining(5, 3))
 
+// var twoSum = function(nums, target) {
+//     let result = [];
+//     let hash = new Map();
+//     hash.set(nums[0], 0)
+//
+//     for (let i = 1; i < nums.length; i++) {
+//         if (hash.has(target - nums[i])) {
+//             result = [hash.get(target- nums[i]), i]
+//         }
+//         hash.set(nums[i], i);
+//     }
+//     console.log(result)
+//     return result;
+// };
+
+// twoSum([3,2,4], 6)
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+var addTwoNumbers = function(l1, l2) {
+    let node = new ListNode(0); // 存放 ListNode
+
+    let head = node;
+    let n = 0;
+
+    while (l1 !== null || l2 !== null) {
+        let num = n;
+        if (l1 != null) {
+            num += l1.val;
+            l1 = l1.next;
+        }
+        if (l2 != null) {
+            num += l2.val;
+            l2 = l2.next;
+        }
+        node.next = new ListNode(num % 10);
+        n = Math.floor(num / 10);
+        node = node.next;
+    }
+
+    if (n > 0) {
+        node.next = new ListNode(n);
+    }
+
+    return head.next;
+};
 
 
