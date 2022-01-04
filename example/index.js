@@ -1,6 +1,6 @@
 /**
  * @param {number} n
- * @return {*[]}
+ * @return {boolean}
  */
 //  var nthUglyNumber = function(n) {
 //      if (n < 1) return 0
@@ -225,39 +225,63 @@
 
 // twoSum([3,2,4], 6)
 
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-var addTwoNumbers = function(l1, l2) {
-    let node = new ListNode(0); // 存放 ListNode
+// /**
+//  * Definition for singly-linked list.
+//  * function ListNode(val, next) {
+//  *     this.val = (val===undefined ? 0 : val)
+//  *     this.next = (next===undefined ? null : next)
+//  * }
+//  */
+// var addTwoNumbers = function(l1, l2) {
+//     let node = new ListNode(0); // 存放 ListNode
+//
+//     let head = node;
+//     let n = 0;
+//
+//     while (l1 !== null || l2 !== null) {
+//         let num = n;
+//         if (l1 != null) {
+//             num += l1.val;
+//             l1 = l1.next;
+//         }
+//         if (l2 != null) {
+//             num += l2.val;
+//             l2 = l2.next;
+//         }
+//         node.next = new ListNode(num % 10);
+//         n = Math.floor(num / 10);
+//         node = node.next;
+//     }
+//
+//     if (n > 0) {
+//         node.next = new ListNode(n);
+//     }
+//
+//     return head.next;
+// };
 
-    let head = node;
-    let n = 0;
+var isValid = function(s) {
+    if (!s.length) return false;
+    if (s.length % 2 !== 0) return false;
 
-    while (l1 !== null || l2 !== null) {
-        let num = n;
-        if (l1 != null) {
-            num += l1.val;
-            l1 = l1.next;
+    const pairs = new Map();
+    pairs.set('{', '}')
+    pairs.set('[', ']')
+    pairs.set('(', ')')
+
+    let stack = ['?'];
+
+    for (let c of s) {
+        if (pairs.has(c)) {
+            stack.push(c);
+        } else if (pairs.get(stack.pop()) !== c) {
+            return false;
         }
-        if (l2 != null) {
-            num += l2.val;
-            l2 = l2.next;
-        }
-        node.next = new ListNode(num % 10);
-        n = Math.floor(num / 10);
-        node = node.next;
     }
 
-    if (n > 0) {
-        node.next = new ListNode(n);
-    }
+    console.log(stack)
 
-    return head.next;
+    return stack.length === 1;
 };
 
-
+isValid('()[]{}')

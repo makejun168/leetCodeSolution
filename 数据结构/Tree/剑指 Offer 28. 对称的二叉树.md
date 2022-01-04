@@ -62,10 +62,12 @@ var isSymmetric = function(root) {
         if (left.val !== right.val) {
             return false
         }
+        
         let ret1 = isMirror(left.left, right.right)
         let ret2 = isMirror(left.right, right.left)
         return ret1 && ret2;
     }
+    
     if (root === null) {
         return true
     }
