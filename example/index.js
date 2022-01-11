@@ -260,28 +260,58 @@
 //     return head.next;
 // };
 
-var isValid = function(s) {
-    if (!s.length) return false;
-    if (s.length % 2 !== 0) return false;
+// var isValid = function(s) {
+//     if (!s.length) return false;
+//     if (s.length % 2 !== 0) return false;
+//
+//     const pairs = new Map();
+//     pairs.set('{', '}')
+//     pairs.set('[', ']')
+//     pairs.set('(', ')')
+//
+//     let stack = ['?'];
+//
+//     for (let c of s) {
+//         if (pairs.has(c)) {
+//             stack.push(c);
+//         } else if (pairs.get(stack.pop()) !== c) {
+//             return false;
+//         }
+//     }
+//
+//     console.log(stack)
+//
+//     return stack.length === 1;
+// };
+//
+// isValid('()[]{}')
 
-    const pairs = new Map();
-    pairs.set('{', '}')
-    pairs.set('[', ']')
-    pairs.set('(', ')')
+// var reconstructQueue = function(people) {
+//     let res = [];
+//
+//     people.sort((a, b ) => {
+//         if(b[0] !== a[0]) {
+//             return b[0] - a[0]
+//         } else {
+//             return a[1] - b[1]
+//         }
+//     })
+//
+//     for (let p of people) {
+//         res.splice(p[1], 0, p);
+//     }
+//
+//     console.log(res);
+//
+//     return res;
+// };
+//
+// reconstructQueue([[9,0],[7,0],[1,9],[3,0],[2,7],[5,3],[6,0],[3,4],[6,2],[5,2]]
+// );
 
-    let stack = ['?'];
 
-    for (let c of s) {
-        if (pairs.has(c)) {
-            stack.push(c);
-        } else if (pairs.get(stack.pop()) !== c) {
-            return false;
-        }
-    }
+var test = function () {
+    let x, y, z, o = null;
 
-    console.log(stack)
 
-    return stack.length === 1;
-};
-
-isValid('()[]{}')
+}
