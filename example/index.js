@@ -309,9 +309,31 @@
 // reconstructQueue([[9,0],[7,0],[1,9],[3,0],[2,7],[5,3],[6,0],[3,4],[6,2],[5,2]]
 // );
 
+var permute1 = function(nums) {
+    let res = [];
+    let len = nums.length
 
-var test = function () {
-    let x, y, z, o = null;
+    var dfs = function (path) {
+        if (path.length === len) {
+            res.push([...path]);
+            return;
+        }
+        for (let i = 0; i < len; i++) {
+            // 如果在路径中不存在 当前的nums 值的 话 加入路径
+            if (path.includes(nums[i])) {
+                continue;
+            }
+            path.push(nums[i]);
+            dfs(path);
+            path.pop(); // 这一步很关键
+        }
+    }
 
+    dfs([]); // 这里传入的空数组是路径
+    console.log(res);
 
+    return res;
 }
+
+permute1([1, 2, 3]);
+
