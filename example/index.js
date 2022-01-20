@@ -309,31 +309,81 @@
 // reconstructQueue([[9,0],[7,0],[1,9],[3,0],[2,7],[5,3],[6,0],[3,4],[6,2],[5,2]]
 // );
 
-var permute1 = function(nums) {
-    let res = [];
-    let len = nums.length
+// var permute1 = function(nums) {
+//     let res = [];
+//     let len = nums.length
+//
+//     var dfs = function (path) {
+//         if (path.length === len) {
+//             res.push([...path]);
+//             return;
+//         }
+//         for (let i = 0; i < len; i++) {
+//             // 如果在路径中不存在 当前的nums 值的 话 加入路径
+//             if (path.includes(nums[i])) {
+//                 continue;
+//             }
+//             path.push(nums[i]);
+//             dfs(path);
+//             path.pop(); // 这一步很关键
+//         }
+//     }
+//
+//     dfs([]); // 这里传入的空数组是路径
+//     console.log(res);
+//
+//     return res;
+// }
+//
+// permute1([1, 2, 3]);
 
-    var dfs = function (path) {
-        if (path.length === len) {
-            res.push([...path]);
-            return;
-        }
-        for (let i = 0; i < len; i++) {
-            // 如果在路径中不存在 当前的nums 值的 话 加入路径
-            if (path.includes(nums[i])) {
+// var subarraySum = function(nums, k) {
+//     const map = { 0: 1 };
+//     let prefixSum = 0;
+//     let count = 0;
+//
+//     for (let i = 0; i < nums.length; i++) {
+//         prefixSum += nums[i];
+//
+//         if (map[prefixSum - k]) {
+//             count += map[prefixSum - k];
+//         }
+//
+//         if (map[prefixSum]) {
+//             map[prefixSum]++;
+//         } else {
+//             map[prefixSum] = 1;
+//         }
+//     }
+//     console.log(map)
+//     return count;
+// };
+//
+// subarraySum([1,2,3], 3);
+
+var subsetsWithDup = function(nums) {
+    let res = [];
+    let len = nums.length;
+
+    // 这里因为存在重复的数字，所以需要排序，将重复的数字凑在一起，方便后面过滤
+    nums.sort();
+
+    var dfs = function (path, startIdx) {
+        res.push([...path]);
+
+        for (let i = startIdx; i < len; i++) {
+            if (i !== startIdx && nums[i] === nums[i - 1]) {
                 continue;
             }
             path.push(nums[i]);
-            dfs(path);
-            path.pop(); // 这一步很关键
+            dfs(path, i + 1); // 这里需要递归到下一层，当前的已经存在了
+            path.pop();
         }
     }
 
-    dfs([]); // 这里传入的空数组是路径
-    console.log(res);
+    dfs([], 0);
 
     return res;
-}
+};
 
-permute1([1, 2, 3]);
-
+subsetsWithDup([1,2,2])

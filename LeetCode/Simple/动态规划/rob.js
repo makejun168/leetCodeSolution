@@ -52,7 +52,8 @@ var rob = function (nums) {
 var rob = function (nums) {
   let n = nums.length;
   // 记录 dp[i+1] 和 dp[i+2]
-  let dp_i_1 = 0,
+  let dp_i_1 =
+
     dp_i_2 = 0;
   // 记录 dp[i]
   let dp_i = 0;
